@@ -19,7 +19,7 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js"
+    "mt": "nodemon server.js"
   },
   "dependencies": {
     "express": "^5.2.1",
