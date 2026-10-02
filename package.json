@@ -1,0 +1,28 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "this is a backend api or server that help to perform CRUD opertion with database",
+  "keywords": [
+    "backend",
+    "database",
+    "tasktracker"
+  ],
+  "homepage": "https://github.com/moyin-pasha-69/Task-Tracker-backend#readme",
+  "bugs": {
+    "url": "https://github.com/moyin-pasha-69/Task-Tracker-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moyin-pasha-69/Task-Tracker-backend.git"
+  },
+  "author": "Moyin Pasha",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
