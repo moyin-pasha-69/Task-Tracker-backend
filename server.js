@@ -1,9 +1,10 @@
 import { app } from "./src/app.js";
-const port = 3001;
+import dns from "dns";
+dns.setServers(["8.8.8.8"], ["1.1.1.1"]);
+import connectDB from "./src/db/db.js";
 
-app.use("/", (req, res) => {
-  res.send("hello bro");
-});
+connectDB();
+const port = 3001;
 
 app.listen(port, () => {
   console.log(`server is listing at http://localhost:${port}`);
